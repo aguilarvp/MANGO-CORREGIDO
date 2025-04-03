@@ -27,4 +27,12 @@ public class Television extends DispositivoElectronico{
         } 
             
     }
+    @Override
+    public String encender (){
+        return "la tv está cargando blabkaba";
+    }
+    @Override
+    public double calcularDepreciacion ( double precio){
+     return precio * 0.05;
+ }
 }

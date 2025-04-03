@@ -22,4 +22,5 @@ public class DispositivoElectronico {
     public String encender() {
         return "El dispositivo electronico esta encendido";
     }
+        public abstract double caclcularDepreciacion(double precio);
 }
